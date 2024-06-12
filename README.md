@@ -1,4 +1,4 @@
-# Client-Side Prototype Pollution
+# CSPP - Client-Side Prototype Pollution
 
 ## Intro
 
