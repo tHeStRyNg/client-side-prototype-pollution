@@ -10,7 +10,7 @@ If you are unfamiliar with Prototype Pollution Attack, you should read the follo
 
 * [Prototype pollution – and bypassing client-side HTML sanitizers](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) by Michał Bentkowski
 
-* Special thankx to [Sergey Bobrov - Black2fan](https://twitter.com/Black2Fan) for info concat, [posix](https://twitter.com/po6ix) which introduced an interesting [technique](https://blog.p6.is/AST-Injection/) to achieve RCE in the template engines, [Michal Bentkowski](http://twitter.com/securitymb) showed [bypassing](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) client-side HTML sanitizers and [William Bowling's](https://twitter.com/wcbowling) found a Reflected [XSS](https://hackerone.com/reports/986386) on HackerOne using prototype pollution. 
+* Special thankx to [Sergey Bobrov - Black2fan](https://twitter.com/Black2Fan) and all others mentioned below for info concat, [posix](https://twitter.com/po6ix) which introduced an interesting [technique](https://blog.p6.is/AST-Injection/) to achieve RCE in the template engines, [Michal Bentkowski](http://twitter.com/securitymb) showed [bypassing](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) client-side HTML sanitizers and [William Bowling's](https://twitter.com/wcbowling) found a Reflected [XSS](https://hackerone.com/reports/986386) on HackerOne using prototype pollution. 
 
 From RCE to SQL, any vulnerability is possible with the prototype pollution in the javascript application.
 
