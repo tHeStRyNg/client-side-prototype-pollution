@@ -10,7 +10,11 @@ If you are unfamiliar with Prototype Pollution Attack, you should read the follo
 
 * [Prototype pollution – and bypassing client-side HTML sanitizers](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) by Michał Bentkowski
 
-In this repository, I am trying to collect examples of libraries that are vulnerable to Prototype Pollution due to `document.location` parsing and useful script gadgets that can be used to demonstrate the impact.
+* Special thankx to [posix](https://twitter.com/po6ix) which introduced an interesting [technique](https://blog.p6.is/AST-Injection/) to achieve RCE in the template engines, [Michal Bentkowski](http://twitter.com/securitymb) showed [bypassing](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) client-side HTML sanitizers and [William Bowling's](https://twitter.com/wcbowling) found a Reflected [XSS](https://hackerone.com/reports/986386) on HackerOne using prototype pollution. 
+
+From RCE to SQL, any vulnerability is possible with the prototype pollution in the javascript application.
+
+In this repository, we're trying to collect examples of libraries that are vulnerable to Prototype Pollution due to `document.location` parsing and useful script gadgets that can be used to demonstrate the impact.
 
 ## Prototype Pollution
 
