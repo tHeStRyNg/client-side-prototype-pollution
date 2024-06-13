@@ -4,9 +4,11 @@
 
 If you are unfamiliar with Prototype Pollution Attack, you should read the following first:
 
-[Amazing work by s1r1us and team](https://blog.s1r1us.ninja/research/PP)
-[JavaScript prototype pollution attack in NodeJS](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) by Olivier Arteau  
-[Prototype pollution – and bypassing client-side HTML sanitizers](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) by Michał Bentkowski
+* [Amazing work by s1r1us and team](https://blog.s1r1us.ninja/research/PP) by S1r1us 
+
+* [JavaScript prototype pollution attack in NodeJS](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) by Olivier Arteau  
+
+* [Prototype pollution – and bypassing client-side HTML sanitizers](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) by Michał Bentkowski
 
 In this repository, I am trying to collect examples of libraries that are vulnerable to Prototype Pollution due to `document.location` parsing and useful script gadgets that can be used to demonstrate the impact.
 
